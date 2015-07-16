@@ -1,0 +1,1117 @@
+/*
+===============================================
+[Main stylesheet app.scss]
+
+Author:	        Krzysztof Furtak :: WebDeveloper
+Version:	    1.0
+Created:	    29.03.2015
+Last updated:	16.04.2015
+Template:	    mAlpha2 - Mobile Web/APP Template
+
+[Table of Contents]
+
+0. GENERAL
+1. HEADER
+2. HOME
+3. MENU
+4. TAB
+5. LIST
+6. FORM
+7. MENU
+8. TAB
+9. GOOGLE MAP
+10. CALENDAR
+11. CHAT
+12. CHECKBOX
+13. RADIO
+14. GRID
+15. CARDS
+16. LOGIN
+17. PAGE 404
+18. BLOG
+19. GALLERY
+20. VIDEO
+21. CONTACT
+22. TYPO
+23. BUTTONS
+24. COLORS
+
+=================================================
+*/
+/* -----------------------------------*/
+/* ---------->>> GENERAL <<<-----------*/
+/* -----------------------------------*/
+/* line 86, ../sass/template.scss */
+.center {
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  text-align: center;
+}
+
+/* line 92, ../sass/template.scss */
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+/* line 97, ../sass/template.scss */
+.list-block .item-after {
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+/* line 102, ../sass/template.scss */
+.content-block-title {
+  margin: 15px 15px 10px;
+}
+
+/* line 105, ../sass/template.scss */
+.list-block {
+  margin: 0;
+}
+
+/* line 108, ../sass/template.scss */
+p {
+  color: #4D4D4D;
+  font-size: 13px;
+  line-height: 21px;
+}
+
+/* line 113, ../sass/template.scss */
+a {
+  color: #fb4848;
+}
+
+/* line 116, ../sass/template.scss */
+h2 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #fb4848;
+  font-family: "Roboto", sans-serif;
+}
+
+/* line 122, ../sass/template.scss */
+.fa {
+  margin-right: 20px;
+}
+
+/* line 125, ../sass/template.scss */
+.content-block-inner:after {
+  background-color: #e4e4e4;
+}
+
+/* line 128, ../sass/template.scss */
+.content-block-inner:before {
+  background-color: #e4e4e4;
+}
+
+/* line 131, ../sass/template.scss */
+.list-block .item-subtitle {
+  font-size: 13px;
+  font-weight: 400;
+  color: #4D4D4D;
+}
+
+/* line 136, ../sass/template.scss */
+.list-block .item-text {
+  font-size: 13px;
+  color: #fff;
+}
+
+/* line 140, ../sass/template.scss */
+.list-block .item-link .item-inner {
+  background-image: none;
+}
+
+/* line 143, ../sass/template.scss */
+.list-block .item-title-features-pages {
+  font-size: 15px;
+  font-weight: 400;
+  color: #fb4848;
+  font-family: "Roboto", sans-serif;
+  margin-left: 15px;
+}
+
+/* line 150, ../sass/template.scss */
+.list-block .item-content-features-pages {
+  padding: 0;
+}
+
+/* line 153, ../sass/template.scss */
+.list-block .item-text-feed {
+  font-size: 13px;
+  color: #4D4D4D;
+  margin-top: 10px;
+  line-height: 21px;
+  position: relative;
+  overflow: hidden;
+  height: 42px;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+}
+
+/* line 166, ../sass/template.scss */
+li.accordion-item {
+  height: auto;
+}
+
+/* line 169, ../sass/template.scss */
+.list-block .item-title {
+  font-size: 15px;
+  font-weight: 400;
+  color: #fb4848;
+  font-family: "Roboto", sans-serif;
+}
+
+/* line 175, ../sass/template.scss */
+.content-block {
+  margin: 10px 0;
+}
+
+/* -----------------------------------*/
+/* ---------->>> HEADER <<<-----------*/
+/* -----------------------------------*/
+/* line 185, ../sass/template.scss */
+.navbar {
+  background: #fff;
+  width: 100%;
+  height: 45px;
+  box-shadow: 0 1px 4px #e3e3e3;
+  font-family: "Roboto", sans-serif;
+}
+
+/* line 192, ../sass/template.scss */
+.navbar:after {
+  display: none;
+}
+
+/* line 195, ../sass/template.scss */
+h2.title {
+  font-weight: 500;
+  color: #fb4848;
+}
+
+/* -----------------------------------*/
+/* ---------->>> HOME <<<-----------*/
+/* -----------------------------------*/
+/* line 206, ../sass/template.scss */
+.navbar-through .page-content {
+  background: white;
+}
+
+/* line 209, ../sass/template.scss */
+img.icon {
+  width: 100%;
+  height: auto;
+}
+
+/* -----------------------------------*/
+/* ---------->>> MENU <<<-----------*/
+/* -----------------------------------*/
+/* line 219, ../sass/template.scss */
+#menu {
+  position: fixed;
+  background-color: #222;
+  height: 100%;
+  z-index: 10;
+  width: 280px;
+  color: #fff;
+  opacity: 1;
+  font-family: "Roboto", sans-serif;
+  overflow-x: auto;
+}
+
+/* line 231, ../sass/template.scss */
+#menu ul {
+  list-style: none;
+  margin-top: 0;
+  padding: 0;
+}
+
+/* line 236, ../sass/template.scss */
+#menu ul li {
+  border-bottom: 1px solid #2a2a2a;
+}
+
+/* line 237, ../sass/template.scss */
+#menu > ul > li > a {
+  border-left: 4px solid #222;
+}
+
+/* line 238, ../sass/template.scss */
+#menu ul li a {
+  color: inherit;
+  font-size: 15px;
+  display: block;
+  padding: 8px 0 8px 7px;
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+/* line 249, ../sass/template.scss */
+#menu ul a i {
+  margin-right: 10px;
+  font-size: 15px;
+  margin-top: 3px;
+  width: 20px;
+}
+
+/* line 255, ../sass/template.scss */
+#menu ul a:active {
+  background-color: #111;
+  border-left-color: #111;
+  color: #fb4848;
+}
+
+/* Submenu */
+/* line 261, ../sass/template.scss */
+#menu ul li a.active + ul {
+  display: block;
+}
+
+/* line 262, ../sass/template.scss */
+#menu ul li ul {
+  margin-top: 0;
+  display: none;
+}
+
+/* line 263, ../sass/template.scss */
+#menu ul li ul li {
+  border-bottom: none;
+}
+
+/* line 264, ../sass/template.scss */
+#menu ul li ul li a {
+  padding-left: 30px;
+}
+
+/* line 265, ../sass/template.scss */
+#menu ul li ul li a:hover {
+  background-color: #1A1A1A;
+}
+
+/* /Submenu */
+/* -----------------------------------*/
+/* ---------->>> TAB <<<-----------*/
+/* -----------------------------------*/
+/* line 275, ../sass/template.scss */
+.buttons-row .button:first-child {
+  border-radius: 20px 0 0 20px;
+  border-left-width: 1px;
+  border-left-style: solid;
+}
+
+/* line 280, ../sass/template.scss */
+.buttons-row .button:last-child {
+  border-radius: 0 20px 20px 0;
+}
+
+/* line 283, ../sass/template.scss */
+.button.active {
+  background: #fb4848;
+}
+
+/* -----------------------------------*/
+/* ---------->>> LIST <<<-----------*/
+/* -----------------------------------*/
+/* line 292, ../sass/template.scss */
+.list-block ul {
+  background: #fff;
+  /* Background Color List */
+}
+
+/* line 295, ../sass/template.scss */
+.list-block ul:before {
+  background-color: #e4e4e4;
+  /* List Divider Top Color */
+}
+
+/* line 298, ../sass/template.scss */
+.list-block ul:after {
+  background-color: #e4e4e4;
+  /* List Divider Bottom Color */
+}
+
+/* line 301, ../sass/template.scss */
+.list-block .item-inner:before {
+  background-color: #e4e4e4;
+  /* List Divider item Color */
+  display: inline;
+  /* width: 105%; If you want divider take all the width active this line */
+  /* margin-left: -15px; If you want divider take all the width active this line */
+}
+
+/* line 307, ../sass/template.scss */
+.list-block .item-inner:after {
+  background-color: #e4e4e4;
+  /* List Divider item Color */
+  display: inline;
+  /* width: 105%; If you want divider take all the width active this line */
+  /* margin-left: -15px; If you want divider take all the width active this line */
+}
+
+/* line 313, ../sass/template.scss */
+.badge {
+  font-family: "Roboto", sans-serif;
+  /* Font Family you want in the Badge Notification */
+  font-weight: 600;
+  font-size: 13px;
+  color: #fff;
+  /* Color of the text in the badge */
+  background: #fb4848;
+  /* Background Color of the badge */
+}
+
+/* line 320, ../sass/template.scss */
+.list-block .item-divider, .list-block .list-group-title {
+  background: #fff;
+  /* Background Color for groups title */
+  color: #8e8e93;
+  /* Text Color for groups title */
+}
+
+/* line 324, ../sass/template.scss */
+.list-block .swipeout-actions-right {
+  /* Swipeout List Text style */
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+/* line 330, ../sass/template.scss */
+.list-block .swipeout-actions-right a {
+  /* Swipeout List item style */
+  background: #fb4848;
+}
+
+/* line 333, ../sass/template.scss */
+.bg-orange, .button.button-fill.bg-orange, .list-block .swipeout-actions-left a.bg-orange, .list-block .swipeout-actions-right a.bg-orange, a.bg-orange {
+  background-color: #8cc63c;
+  /* I have changed the Action 1 button in the second "swipe me" to green */
+}
+
+/* -----------------------------------*/
+/* ---------->>> FORM <<<-----------*/
+/* -----------------------------------*/
+/* line 343, ../sass/template.scss */
+input {
+  /* Input style */
+  font-family: "Roboto", sans-serif;
+  font-size: 13px !important;
+  font-weight: 400;
+  color: #4D4D4D !important;
+  padding: 0 !important;
+}
+
+/* line 350, ../sass/template.scss */
+select {
+  /* Select style (for selection item) */
+  font-family: "Roboto", sans-serif;
+  font-size: 13px !important;
+  font-weight: 400;
+  color: #4D4D4D !important;
+}
+
+/* line 356, ../sass/template.scss */
+textarea {
+  /* Textarea style (for selection item) */
+  font-family: "Roboto", sans-serif;
+  font-size: 13px !important;
+  font-weight: 400;
+  color: #4D4D4D !important;
+}
+
+/* line 362, ../sass/template.scss */
+.label-switch .checkbox {
+  /* Switch Style General Style */
+  width: 52px;
+  border-radius: 16px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 32px;
+  background: #FFFFFF;
+  z-index: 0;
+  margin: 0;
+  padding: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  -webkit-transition-duration: 300ms;
+  transition-duration: 300ms;
+}
+
+/* line 383, ../sass/template.scss */
+.label-switch .checkbox:before {
+  background: #fb4848;
+}
+
+/* line 386, ../sass/template.scss */
+.label-switch input[type=checkbox]:checked + .checkbox {
+  /* Switch active */
+  background: #8cc63c;
+}
+
+/* line 389, ../sass/template.scss */
+.range-slider input[type=range] {
+  /* Slide Style */
+  position: relative;
+  height: 28px;
+  width: 100%;
+  margin: 4px 0 5px 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  background: -webkit-gradient(linear, 50% 0, 50% 100%, color-stop(0, #fb4848), color-stop(100%, #fb4848));
+  /* background: linear-gradient(to right,#b7b8b7 0,#b7b8b7 100%); */
+  background-position: center;
+  background-size: 100% 2px;
+  background-repeat: no-repeat;
+  outline: 0;
+}
+
+/* -----------------------------------*/
+/* ---------->>> GOOGLE MAP <<<-----------*/
+/* -----------------------------------*/
+/* line 412, ../sass/template.scss */
+#map-canvas {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* -----------------------------------*/
+/* ---------->>> CALENDAR <<<-----------*/
+/* -----------------------------------*/
+/* line 423, ../sass/template.scss */
+.picker-calendar-day.picker-calendar-day-selected span {
+  /* Color Picker Date */
+  background: #fb4848;
+  color: #fff;
+}
+
+/* line 427, ../sass/template.scss */
+.picker-calendar-month-picker span, .picker-calendar-year-picker span {
+  /* Month and year Font Style */
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+/* line 432, ../sass/template.scss */
+.picker-calendar-row:after {
+  /* Calendar divider color */
+  background-color: #e4e4e4;
+}
+
+/* line 435, ../sass/template.scss */
+.picker-calendar-row:before {
+  /* Calendar divider color */
+  background-color: #e4e4e4;
+}
+
+/* line 438, ../sass/template.scss */
+.picker-calendar.picker-modal-inline .picker-calendar-week-days ~ .picker-calendar-months:before, .picker-calendar.picker-modal-inline .toolbar ~ .picker-modal-inner .picker-calendar-months:before, .popover .picker-calendar .picker-calendar-week-days ~ .picker-calendar-months:before, .popover .picker-calendar .toolbar ~ .picker-modal-inner .picker-calendar-months:before {
+  /* Calendar divider color */
+  background-color: #e4e4e4;
+}
+
+/* line 441, ../sass/template.scss */
+.picker-calendar-day span {
+  font-weight: 300;
+}
+
+/* -----------------------------------*/
+/* ---------->>> CHAT <<<-----------*/
+/* -----------------------------------*/
+/* line 450, ../sass/template.scss */
+.messages-date {
+  /* Message date style */
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+/* line 455, ../sass/template.scss */
+.message-sent .message-text {
+  /* Message sent style */
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  background-color: #fb4848;
+  margin-bottom: 10px;
+}
+
+/* line 462, ../sass/template.scss */
+.message-received.message-last .message-text, .message-received.message-with-tail .message-text {
+  /* Message received style */
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+/* line 467, ../sass/template.scss */
+.message .message-text {
+  /* Message text style */
+  padding: 12px 16px 9px;
+  font-size: 13px;
+}
+
+/* line 471, ../sass/template.scss */
+.toolbar {
+  /* Color type message section */
+  background: #fff;
+}
+
+/* line 474, ../sass/template.scss */
+.messagebar textarea {
+  /* Border message section white */
+  border: 1px solid white;
+}
+
+/* line 477, ../sass/template.scss */
+.messagebar textarea + .link {
+  font-size: 16px;
+}
+
+/* -----------------------------------*/
+/* ---------->>> CHECKBOX <<<-----------*/
+/* -----------------------------------*/
+/* line 486, ../sass/template.scss */
+label.label-checkbox input[type=checkbox]:checked + .item-media i.icon-form-checkbox, label.label-checkbox input[type=radio]:checked + .item-media i.icon-form-checkbox {
+  /* Color Checkbox */
+  background-color: #fb4848;
+}
+
+/* line 489, ../sass/template.scss */
+label.label-checkbox.item-content {
+  padding-left: 10px;
+}
+
+/* -----------------------------------*/
+/* ---------->>> RADIO <<<-----------*/
+/* -----------------------------------*/
+/* line 498, ../sass/template.scss */
+label.label-radio input[type=radio]:checked ~ .item-inner {
+  /* Radio Icon (for changing color look at line 263 "fb4848" replace this by your color code */
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2013%2010'%3E%3Cpolygon%20fill%3D'%23fb4848'%20points%3D'11.6%2C0%204.4%2C7.2%201.4%2C4.2%200%2C5.6%204.4%2C10%204.4%2C10%204.4%2C10%2013%2C1.4%20'%2F%3E%3C%2Fsvg%3E");
+}
+
+/* -----------------------------------*/
+/* ---------->>> GRID <<<-----------*/
+/* -----------------------------------*/
+/* line 507, ../sass/template.scss */
+div[class*="col-"] {
+  /* Grid style for better visualization */
+  background: white;
+  text-align: center;
+  color: #fb4848;
+  /* border: 1px solid #e4e4e4; */
+  padding: 5px;
+}
+
+/* line 514, ../sass/template.scss */
+.row.home {
+  margin-bottom: 28px;
+}
+
+/* -----------------------------------*/
+/* ---------->>> CARDS <<<-----------*/
+/* -----------------------------------*/
+/* line 523, ../sass/template.scss */
+.demo-card-header-pic .card-header {
+  height: 50vw;
+  background-size: cover;
+  background-position: center;
+}
+
+/* line 528, ../sass/template.scss */
+.card-content-inner {
+  font-size: 13px;
+}
+
+/* line 531, ../sass/template.scss */
+.card-header {
+  font-size: 16px;
+}
+
+/* line 534, ../sass/template.scss */
+.facebook-card .card-header {
+  display: block;
+  padding: 10px;
+}
+
+/* line 538, ../sass/template.scss */
+.facebook-card .facebook-avatar {
+  float: left;
+}
+
+/* line 541, ../sass/template.scss */
+.facebook-card .facebook-name {
+  margin-left: 44px;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+/* line 546, ../sass/template.scss */
+.facebook-card .facebook-date {
+  margin-left: 44px;
+  font-size: 13px;
+  color: #8e8e93;
+}
+
+/* line 551, ../sass/template.scss */
+.facebook-card .card-footer {
+  background: #fafafa;
+}
+
+/* line 554, ../sass/template.scss */
+.facebook-card .card-footer a {
+  color: #81848b;
+  font-weight: 400;
+}
+
+/* line 558, ../sass/template.scss */
+.facebook-card .card-content img {
+  display: block;
+}
+
+/* line 561, ../sass/template.scss */
+.facebook-card .card-content-inner {
+  padding: 15px 10px;
+}
+
+/* -----------------------------------*/
+/* ---------->>> LOGIN <<<-----------*/
+/* -----------------------------------*/
+/* line 571, ../sass/template.scss */
+.login-screen-content .login-screen-title {
+  /* Login Title Font Style */
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  color: #fb4848;
+}
+
+/* -----------------------------------*/
+/* ---------->>> PAGE 404 <<<-----------*/
+/* -----------------------------------*/
+/* line 583, ../sass/template.scss */
+p.error {
+  /* 404 Font Style */
+  font-size: 180px;
+  color: #fb4848;
+  margin: 10px 0;
+}
+
+/* line 588, ../sass/template.scss */
+span.error {
+  vertical-align: middle;
+}
+
+/* line 591, ../sass/template.scss */
+p.page_not_found {
+  /* Page not found Font Style */
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: #fb4848;
+  margin: -10px 0px 3px;
+}
+
+/* line 598, ../sass/template.scss */
+span.page_not_found {
+  vertical-align: middle;
+}
+
+/* line 601, ../sass/template.scss */
+.container {
+  /* Do not edit */
+  height: 320px;
+  line-height: 330px;
+  text-align: center;
+}
+
+/* line 606, ../sass/template.scss */
+.bloc {
+  /* Do not edit */
+  width: auto;
+  vertical-align: middle;
+  display: inline-block;
+  line-height: normal;
+}
+
+/* line 612, ../sass/template.scss */
+a.item-link.back {
+  /* Go Back Font Style */
+  color: #4D4D4D;
+  font-weight: 400;
+}
+
+/* -----------------------------------*/
+/* ---------->>> BLOG <<<-----------*/
+/* -----------------------------------*/
+/* line 622, ../sass/template.scss */
+.previous_posts {
+  /* Previous Posts Style */
+  float: left;
+  margin-left: 10px;
+  font-weight: 400;
+}
+
+/* line 627, ../sass/template.scss */
+.next_posts {
+  /* Next Posts Style */
+  float: right;
+  margin-right: 10px;
+  font-weight: 400;
+}
+
+/* line 632, ../sass/template.scss */
+.blog_pagination {
+  padding-top: 10px;
+  height: 30px;
+}
+
+/* line 636, ../sass/template.scss */
+.list-block .item-text-comments {
+  /* Comments Style */
+  height: auto;
+  display: inherit;
+  font-size: 13px;
+  color: #4D4D4D;
+  line-height: 21px;
+  position: relative;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+/* line 648, ../sass/template.scss */
+.list-block .item-text-comments {
+  margin-top: 10px;
+}
+
+/* line 651, ../sass/template.scss */
+.card-header.color-white.no-border {
+  padding-right: 20px;
+  text-shadow: 0 1px 0 black;
+}
+
+/* line 656, ../sass/template.scss */
+.card-footer, .card-header {
+  padding-right: 20px;
+}
+
+/* Social Share Button Style */
+/* line 662, ../sass/template.scss */
+.stickySocialSocial {
+  width: 208px;
+}
+
+/* line 665, ../sass/template.scss */
+#stickyBtn {
+  font: 9px Verdana, Geneva, sans-serif;
+  color: #FFF;
+  text-decoration: none;
+  text-align: center;
+  float: left;
+  margin-right: 20px;
+}
+
+/* line 673, ../sass/template.scss */
+#stickyBtn span {
+  float: left;
+  padding: 5px 3px;
+  border-color: #e2e2e2;
+  border-style: solid;
+}
+
+/* line 679, ../sass/template.scss */
+#stickyBtn .buttonsocial {
+  width: 55px;
+  display: block;
+  border-width: 1px 0 1px 1px;
+  opacity: .85;
+}
+
+/* line 685, ../sass/template.scss */
+#stickyBtn .buttonsocial:hover {
+  opacity: 1;
+}
+
+/* line 688, ../sass/template.scss */
+#stickyBtn .buttonsocial:active {
+  opacity: .95;
+}
+
+/* line 691, ../sass/template.scss */
+#stickyBtn .count {
+  width: auto;
+  display: block;
+  background-color: #fff;
+  color: #000;
+  border-width: 1px 1px 1px 0;
+  position: relative;
+  min-width: 15px;
+}
+
+/* line 700, ../sass/template.scss */
+#stickyBtn .count:after {
+  border: solid transparent;
+  content: '';
+  height: 0;
+  width: 0;
+  position: absolute;
+  border-color: transparent;
+  border-right-color: white;
+  border-width: 5px;
+  left: -8px;
+  top: 6px;
+}
+
+/* line 712, ../sass/template.scss */
+#stickyBtn.fbShare .buttonsocial {
+  background-color: #6279a3;
+}
+
+/* line 715, ../sass/template.scss */
+#stickyBtn.tweet .buttonsocial {
+  background-color: #71a2d3;
+}
+
+/* line 718, ../sass/template.scss */
+#stickyBtn.pinIt .buttonsocial {
+  background-color: #d77980;
+}
+
+/* line 721, ../sass/template.scss */
+#stickyBtn.comment .buttonsocial {
+  background-color: #999;
+}
+
+/* -----------------------------------*/
+/* ---------->>> GALLERY <<<-----------*/
+/* -----------------------------------*/
+/* line 730, ../sass/template.scss */
+.swiper-container {
+  height: 100%;
+}
+
+/* line 733, ../sass/template.scss */
+.swiper-slide {
+  background: #000;
+  position: relative;
+}
+
+/* line 737, ../sass/template.scss */
+.swiper-slide img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  max-width: 100%;
+  max-height: 100%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+/* -----------------------------------*/
+/* ---------->>> VIDEO <<<-----------*/
+/* -----------------------------------*/
+/* line 752, ../sass/template.scss */
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+
+/* line 761, ../sass/template.scss */
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* -----------------------------------*/
+/* ---------->>> CONTACT <<<-----------*/
+/* -----------------------------------*/
+/* line 775, ../sass/template.scss */
+#map-canvas-contact {
+  height: 30%;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 780, ../sass/template.scss */
+.send_button {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+/* line 784, ../sass/template.scss */
+li.contact {
+  margin-top: 15px;
+}
+
+/* -----------------------------------*/
+/* ---------->>> TYPO <<<-----------*/
+/* -----------------------------------*/
+/* line 793, ../sass/template.scss */
+p.bold {
+  font-weight: 500;
+}
+
+/* line 796, ../sass/template.scss */
+p.italic {
+  font-style: italic;
+}
+
+/* line 799, ../sass/template.scss */
+p.caps {
+  text-transform: uppercase;
+}
+
+/* -----------------------------------*/
+/* ---------->>> BUTTONS <<<-----------*/
+/* -----------------------------------*/
+/* line 807, ../sass/template.scss */
+.button {
+  /* Button Style */
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  background: white;
+  color: #fb4848;
+  border: 1px solid #fb4848;
+  margin-left: auto;
+  margin-right: auto;
+  width: 240px;
+}
+
+/* line 818, ../sass/template.scss */
+.button.active-state, html:not(.watch-active-state) .button:active {
+  /* Default Active */
+  color: #fff;
+  background-color: #fb4848;
+}
+
+/* line 822, ../sass/template.scss */
+.button.button-round {
+  /* Rounded Default */
+  border-radius: 27px;
+  background-color: #fff;
+  color: #fb4848;
+}
+
+/* line 827, ../sass/template.scss */
+.button.button-round.button.active-state, html:not(.watch-active-state) .button:active {
+  /* Rounded Active */
+  border-radius: 27px;
+  background-color: #fb4848;
+  color: #fff;
+}
+
+/* -----------------------------------*/
+/* ---------->>> COLORS <<<-----------*/
+/* -----------------------------------*/
+/* line 839, ../sass/template.scss */
+.red {
+  background-color: #fb4848;
+  height: 70px;
+  width: auto;
+  color: white;
+  font-weight: 500;
+}
+
+/* line 846, ../sass/template.scss */
+.pink {
+  background-color: #ff2d55;
+  height: 70px;
+  width: auto;
+  color: white;
+  font-weight: 500;
+}
+
+/* line 853, ../sass/template.scss */
+.orange {
+  background-color: #ff9500;
+  height: 70px;
+  width: auto;
+  color: white;
+  font-weight: 500;
+}
+
+/* line 860, ../sass/template.scss */
+.green {
+  background-color: #4cd964;
+  height: 70px;
+  width: auto;
+  color: white;
+  font-weight: 500;
+}
+
+/* line 867, ../sass/template.scss */
+.gray {
+  background-color: #8e8e93;
+  height: 70px;
+  width: auto;
+  color: white;
+  font-weight: 500;
+}
+
+/* line 874, ../sass/template.scss */
+.yellow {
+  background-color: #fc0;
+  height: 70px;
+  width: auto;
+  color: white;
+  font-weight: 500;
+}
+
+/* line 881, ../sass/template.scss */
+.blue {
+  background-color: #007aff;
+  height: 70px;
+  width: auto;
+  color: white;
+  font-weight: 500;
+}
+
+/* line 888, ../sass/template.scss */
+.black {
+  background-color: #333;
+  height: 70px;
+  width: auto;
+  color: white;
+  font-weight: 500;
+}
+
+/* line 895, ../sass/template.scss */
+.white {
+  background-color: #fff;
+  height: 70px;
+  width: auto;
+  color: #fb4848;
+  font-weight: 500;
+}
