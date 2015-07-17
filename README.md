@@ -1,4 +1,3 @@
-# Copernic-Mobile-Tablet-Template-
 
 Copernic is a framework7 template working on mobile and tablet. There are more than 25 pages. You can use it for creating your next web app , mobile website or native app with phonegap.
 
