@@ -1,11 +1,34 @@
+# Copernic Mobile Template
 
-Copernic is a framework7 template working on mobile and tablet. There are more than 25 pages. You can use it for creating your next web app , mobile website or native app with phonegap.
+Copernic is a Mobile Template for creating your next App or WebApp.
 
-<center>
-<img src="http://mickaelguillaume.esy.es/Template/Copernic/planche/planche1.png"/> <br>
-<img src="http://mickaelguillaume.esy.es/Template/Copernic/planche/planche2.png"/>
-<img src="http://mickaelguillaume.esy.es/Template/Copernic/planche/planche3.png"/>
-<img src="http://mickaelguillaume.esy.es/Template/Copernic/planche/planche4.png"/>
-</center>
+[Demo](http://mickaelguillaume.esy.es/Template/Copernic/Source/RED/index.html)
 
-<a href="http://mickaelguillaume.esy.es/Template/Copernic/RED/index.html">Preview</a>
+## License
+
+GNU General Public License v3.0 [Read more about our license.](http://www.gnu.org/licenses/gpl-3.0.txt)
+
+## Credits 
+
+### Framework7
+
+[Framework7](http://www.idangero.us/framework7/#.Vh5eAXrtlBc) by iDangero.us. Licensed under [MIT](https://github.com/nolimits4web/Framework7/blob/master/LICENSE)
+
+### Font Awesome Icons 
+
+[Font Awesome](http://fortawesome.github.io/Font-Awesome/) by Dave Gandy. Licensed under [MIT](http://opensource.org/licenses/mit-license.html)
+
+### SASS
+
+[SASS](http://sass-lang.com/) by Hampton Catlin. Licensed under [MIT](https://github.com/sass/sass/blob/stable/MIT-LICENSE)
+
+### Pexels
+
+[Pexels](https://www.pexels.com/) by PexelsPhotos. Licensed under [CC0](https://creativecommons.org/publicdomain/zero/1.0/)
+
+## Misc
+
+Follow Mickael Guillaume: [Twitter](https://twitter.com/guillaumemick), [Behance](https://www.behance.net/mickaeldll)
+
+
+
