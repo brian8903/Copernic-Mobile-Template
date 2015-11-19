@@ -1,6 +1,6 @@
 # Copernic Mobile Template
 
-Copernic is a Mobile Template for creating your next App or WebApp.
+Copernic HTML Mobile Template.
 
 [Demo](http://mickaelguillaume.esy.es/Template/Copernic/Source/RED/index.html)
 
